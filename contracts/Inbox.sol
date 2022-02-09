@@ -2,7 +2,6 @@ pragma solidity ^0.4.17; // specifys solidity version and lets the compiler know
 
 //Define the contract
 contract Inbox {
-    //declare an instance
     // it is a public (accessible by anyone) type string variable in the contract
     // this is a storage variable and will automatically be stored with the contract on the blockchain
     string public message;
